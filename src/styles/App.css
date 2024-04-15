@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width:800px;
+}
+
+.post {
+    display:flex;
+    padding: 15px;
+    border: 2px solid rgb(53, 141, 141);
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.rating {
+    text-align: end;
+    justify-content: right;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.fff {
+    justify-content: space-between;
+}
+
+.rating_btn {
+    padding: 5px 15px;
+    color: teal;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid teal;
+    cursor: pointer;
+}
